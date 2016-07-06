@@ -1,0 +1,51 @@
+<acceptance-test-run title="Answer the prompt box" name="Answer the prompt box" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="19216" timestamp="2016-07-05T23:37:14.360+07:00" session-id="b1225c35-b25a-4105-a707-92eaa801f2cb">
+  <user-story id="behavior-on-dialogs-and-alerts" name="Behavior on Dialogs and Alerts" path="src/test/resources/features/popup/AlertPopUp.feature"/>
+  <tags>
+    <tag name="Behavior on Dialogs and Alerts" type="feature"/>
+    <tag name="popup" type="tag"/>
+  </tags>
+  <test-group name="Given the page &quot;http://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt&quot; is visited" result="SUCCESS">
+    <screenshots>
+      <screenshot image="5314cef802b3915d9c3de99c26b6b377.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="17527">
+      <screenshots>
+        <screenshot image="5314cef802b3915d9c3de99c26b6b377.png"/>
+      </screenshots>
+      <description>Open page: http://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt</description>
+    </test-step>
+  </test-group>
+  <test-group name="And go inside the &quot;id=iframeResult&quot; frame" result="SUCCESS">
+    <screenshots>
+      <screenshot image="5314cef802b3915d9c3de99c26b6b377.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="209">
+      <screenshots>
+        <screenshot image="5314cef802b3915d9c3de99c26b6b377.png"/>
+      </screenshots>
+      <description>Go inside frame: id=iframeResult</description>
+    </test-step>
+  </test-group>
+  <test-group name="And input &quot;Baymax&quot; on prompt dialog box &quot;css=button&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="f666f0f7a780ff4d932986773b76b9f0.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="315">
+      <screenshots>
+        <screenshot image="f666f0f7a780ff4d932986773b76b9f0.png"/>
+      </screenshots>
+      <description>Input dialog box: Baymax, css=button</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then assert that the text &quot;id=demo&quot; element is &quot;Hello Baymax! How are you today?&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="f666f0f7a780ff4d932986773b76b9f0.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="129">
+      <screenshots>
+        <screenshot image="f666f0f7a780ff4d932986773b76b9f0.png"/>
+      </screenshots>
+      <description>Assert text element: id=demo, Hello Baymax! How are you today?</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

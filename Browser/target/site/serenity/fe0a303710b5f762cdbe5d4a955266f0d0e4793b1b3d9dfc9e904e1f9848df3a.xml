@@ -1,0 +1,132 @@
+<acceptance-test-run title="Demo in English version" name="Demo in English version" description="" steps="30" successful="7" failures="0" errors="1" skipped="22" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="45935" timestamp="2016-07-06T00:05:38.398+07:00" session-id="c202fd01-4ac3-47f1-81e2-a792b4fcf690">
+  <user-story id="window" name="Window" path="src/test/resources/features/browser/Browser.feature"/>
+  <tags>
+    <tag name="Window" type="feature"/>
+    <tag name="browser" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="253">
+    <description>Given the home page is visited</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="17661">
+    <screenshots>
+      <screenshot image="110d71872460e957efed521e6e0ec476.png"/>
+    </screenshots>
+    <description>And the page &quot;http://live.guru99.com/&quot; is visited</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="4364">
+    <screenshots>
+      <screenshot image="110d71872460e957efed521e6e0ec476.png"/>
+    </screenshots>
+    <description>And the page is refreshed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="261">
+    <screenshots>
+      <screenshot image="a876e8e8a17003aeb689acbe894195f3.png"/>
+    </screenshots>
+    <description>And maximize the window</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="167">
+    <screenshots>
+      <screenshot image="a876e8e8a17003aeb689acbe894195f3.png"/>
+    </screenshots>
+    <description>And go backward one page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="168">
+    <screenshots>
+      <screenshot image="a876e8e8a17003aeb689acbe894195f3.png"/>
+    </screenshots>
+    <description>And go forward one page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="12006">
+    <screenshots>
+      <screenshot image="22bf74fe33b68ae338629e27d9de5b00.png"/>
+    </screenshots>
+    <description>And the page &quot;https://cucumber.io/&quot; is opened on another window</description>
+  </test-step>
+  <test-group name="Then assert that the &quot;Describe behaviour in plain text&quot; text is present" result="ERROR">
+    <screenshots>
+      <screenshot image="7f271feb42897c611ac363410bbe2ebe.png"/>
+    </screenshots>
+    <test-step result="ERROR" duration="3745">
+      <screenshots>
+        <screenshot image="22bf74fe33b68ae338629e27d9de5b00.png" source="pagesource8351352804496878038.html.txt"/>
+      </screenshots>
+      <description>Assert text present: Describe behaviour in plain text</description>
+      <error>org.openqa.selenium.TimeoutException: Timed out after 5000 milliseconds: Expecting text present: &apos;Describe behaviour in plain text&apos;
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;windows8&apos;, ip: &apos;192.168.1.109&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: driver.version: unknown</error>
+      <exception>org.openqa.selenium.TimeoutException:Timed out after 5000 milliseconds: Expecting text present: &apos;Describe behaviour in plain text&apos;
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;windows8&apos;, ip: &apos;192.168.1.109&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: driver.version: unknown&#xd;
+[vnu.hus.demo.browser.steps.serenity.BrowserSteps.assert_text_present(BrowserSteps.java:46), vnu.hus.demo.browser.steps.BrowserScenarioSteps.assert_that_the_text_is_present(BrowserScenarioSteps.java:50)]</exception>
+    </test-step>
+  </test-group>
+  <test-step result="SKIPPED" duration="3">
+    <description>And assert that the &quot;Write a step definition in Java&quot; text is not present</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And assert that the page title is &quot;Cucumber&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>And assert that the page title is not &quot;Serenity BDD&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>And assert that the page title has &quot;Cu&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And assert that the page title does not have &quot;Cucun&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And assert that the url is &quot;https://cucumber.io/&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And assert that the url is not &quot;https://cucumber.com/&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>When window dimension is changed with size (300,500)</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And scroll up or down in screen with value (0,1000)</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="5">
+    <description>And window is moved to location with coordinates (200,300)</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="4">
+    <description>And close current window</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And switch back to the original window</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And open &quot;link=TV&quot; link in new window and switch to it</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>And close current window</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>And switch back to the original window</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>And open &quot;css=img[alt=&apos;Additional Options&apos;]&quot; dialog and switch to it</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And window is moved to location with coordinates (150,200)</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And maximize the window</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And close current window</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And switch back to the original window</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And window dimension is changed with size (300,500)</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And window is moved to location with coordinates (100,200)</description>
+  </test-step>
+</acceptance-test-run>

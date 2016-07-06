@@ -1,0 +1,109 @@
+<acceptance-test-run title="General and Frame steps in English" name="General and Frame steps in English" description="" steps="17" successful="17" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="24903" timestamp="2016-07-05T22:39:31.419+07:00" session-id="bdc8691b-f792-4604-98ae-c38371af7a77">
+  <user-story id="frame" name="Frame" path="src/test/resources/features/consult_dictionary/Frame.feature"/>
+  <tags>
+    <tag name="Consult dictionary" type="capability"/>
+    <tag name="Consult dictionary/Frame" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="11043">
+    <screenshots>
+      <screenshot image="796f606620426058b969c1d2f3344575.png"/>
+    </screenshots>
+    <description>Given the page &quot;http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_input_disabled&quot; is visited</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2338">
+    <screenshots>
+      <screenshot image="796f606620426058b969c1d2f3344575.png"/>
+    </screenshots>
+    <description>And go inside the &quot;id=iframeResult&quot; frame</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="181">
+    <screenshots>
+      <screenshot image="796f606620426058b969c1d2f3344575.png"/>
+    </screenshots>
+    <description>Then assert that the &quot;name=fname&quot; element is enabled</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="146">
+    <screenshots>
+      <screenshot image="796f606620426058b969c1d2f3344575.png"/>
+    </screenshots>
+    <description>And assert that the &quot;name=lname&quot; element is disabled</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="130">
+    <screenshots>
+      <screenshot image="796f606620426058b969c1d2f3344575.png"/>
+    </screenshots>
+    <description>And assert that the &quot;xpath=//input[@type=&apos;submit&apos;]&quot; element is present</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2338">
+    <screenshots>
+      <screenshot image="796f606620426058b969c1d2f3344575.png"/>
+    </screenshots>
+    <description>And assert that the &quot;xpath=//input[@type=&apos;password&apos;]&quot; element is absent</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3275">
+    <screenshots>
+      <screenshot image="0d5e64cc88eb2c7df66540648d2ae565.png"/>
+    </screenshots>
+    <description>When the page &quot;http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_hidden&quot; is visited</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2485">
+    <screenshots>
+      <screenshot image="0d5e64cc88eb2c7df66540648d2ae565.png"/>
+    </screenshots>
+    <description>And go inside the &quot;id=iframeResult&quot; frame</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="268">
+    <screenshots>
+      <screenshot image="0d5e64cc88eb2c7df66540648d2ae565.png"/>
+    </screenshots>
+    <description>Then assert that the &quot;value&quot; attribute of &quot;name=country&quot; is &quot;Norway&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="238">
+    <screenshots>
+      <screenshot image="0d5e64cc88eb2c7df66540648d2ae565.png"/>
+    </screenshots>
+    <description>And assert that the &quot;name=country&quot; element is hidden</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="241">
+    <screenshots>
+      <screenshot image="a53654d2cccc31c1abadfe7adbcaa171.png"/>
+    </screenshots>
+    <description>When change &quot;type&quot; attribute of &quot;name=country&quot; into &quot;display&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="307">
+    <screenshots>
+      <screenshot image="a53654d2cccc31c1abadfe7adbcaa171.png"/>
+    </screenshots>
+    <description>Then assert that the &quot;name=country&quot; element is visible</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="246">
+    <screenshots>
+      <screenshot image="f312d55e6809c077245575bbaefb1d11.png"/>
+    </screenshots>
+    <description>When change &quot;value&quot; attribute of &quot;name=country&quot; into &quot;VIETNAM&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="280">
+    <screenshots>
+      <screenshot image="f312d55e6809c077245575bbaefb1d11.png"/>
+    </screenshots>
+    <description>Then assert that the &quot;value&quot; attribute of &quot;name=country&quot; is &quot;VIETNAM&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="256">
+    <screenshots>
+      <screenshot image="a372029584980c7fe5ab984a01dcc600.png"/>
+    </screenshots>
+    <description>When highlight &quot;name=country&quot; element</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="326">
+    <screenshots>
+      <screenshot image="a372029584980c7fe5ab984a01dcc600.png"/>
+    </screenshots>
+    <description>And set bound for &quot;name=country&quot; element</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="485">
+    <screenshots>
+      <screenshot image="a372029584980c7fe5ab984a01dcc600.png"/>
+    </screenshots>
+    <description>And capture image of &quot;name=country&quot; element and save as &quot;norway.png&quot;</description>
+  </test-step>
+</acceptance-test-run>

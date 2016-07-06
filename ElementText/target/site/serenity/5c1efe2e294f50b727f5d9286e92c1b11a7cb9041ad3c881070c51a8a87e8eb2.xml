@@ -1,0 +1,83 @@
+<acceptance-test-run title="Element text in English" name="Element text in English" description="" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="61090" timestamp="2016-07-05T23:44:16.444+07:00" session-id="d9d9dfbd-a79e-42f0-a6c3-768791289301">
+  <user-story id="general-steps" name="General Steps" path="src/test/resources/features/element_text/ElementText.feature"/>
+  <tags>
+    <tag name="General Steps" type="feature"/>
+  </tags>
+  <test-group name="Given the page &quot;https://cucumber.io/&quot; is visited" result="SUCCESS">
+    <screenshots>
+      <screenshot image="ee9e00364d38072b2868bb1cf12133de.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="20647">
+      <screenshots>
+        <screenshot image="ee9e00364d38072b2868bb1cf12133de.png"/>
+      </screenshots>
+      <description>Open page: https://cucumber.io/</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then assert that the text &quot;css=h1[title=&apos;Cucumber&apos;]&quot; element is &quot;Simple, human collaboration&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="ee9e00364d38072b2868bb1cf12133de.png"/>
+    </screenshots>
+    <test-group name="Assert equals: css=h1[title=&apos;Cucumber&apos;], Simple, human collaboration" result="SUCCESS">
+      <screenshots>
+        <screenshot image="47e7cfb553bdf33a9ac8c308dc1b6fc5.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="3889">
+        <screenshots>
+          <screenshot image="47e7cfb553bdf33a9ac8c308dc1b6fc5.png"/>
+        </screenshots>
+        <description>Get alert msg: css=h1[title=&apos;Cucumber&apos;], Simple, human collaboration</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="And assert that the text &quot;css=h1[title=&apos;Cucumber&apos;]&quot; element is not &quot;human collaboration&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="47e7cfb553bdf33a9ac8c308dc1b6fc5.png"/>
+    </screenshots>
+    <test-group name="Assert not equals: css=h1[title=&apos;Cucumber&apos;], human collaboration" result="SUCCESS">
+      <screenshots>
+        <screenshot image="47e7cfb553bdf33a9ac8c308dc1b6fc5.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2646">
+        <screenshots>
+          <screenshot image="47e7cfb553bdf33a9ac8c308dc1b6fc5.png"/>
+        </screenshots>
+        <description>Get alert msg: css=h1[title=&apos;Cucumber&apos;], human collaboration</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="And assert that the text &quot;css=h1[title=&apos;Cucumber&apos;]&quot; element has &quot;collaboration&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="ee9e00364d38072b2868bb1cf12133de.png"/>
+    </screenshots>
+    <test-group name="Assert has text: css=h1[title=&apos;Cucumber&apos;], collaboration" result="SUCCESS">
+      <screenshots>
+        <screenshot image="ee9e00364d38072b2868bb1cf12133de.png"/>
+        <screenshot image="47e7cfb553bdf33a9ac8c308dc1b6fc5.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2853">
+        <screenshots>
+          <screenshot image="ee9e00364d38072b2868bb1cf12133de.png"/>
+          <screenshot image="47e7cfb553bdf33a9ac8c308dc1b6fc5.png"/>
+        </screenshots>
+        <description>Get alert msg: css=h1[title=&apos;Cucumber&apos;], collaboration</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="And assert that the text &quot;css=h1[title=&apos;Cucumber&apos;]&quot; element does not have &quot;Simples&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="ee9e00364d38072b2868bb1cf12133de.png"/>
+    </screenshots>
+    <test-group name="Assert does not has: css=h1[title=&apos;Cucumber&apos;], Simples" result="SUCCESS">
+      <screenshots>
+        <screenshot image="47e7cfb553bdf33a9ac8c308dc1b6fc5.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="2762">
+        <screenshots>
+          <screenshot image="47e7cfb553bdf33a9ac8c308dc1b6fc5.png"/>
+        </screenshots>
+        <description>Get alert msg: css=h1[title=&apos;Cucumber&apos;], Simples</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

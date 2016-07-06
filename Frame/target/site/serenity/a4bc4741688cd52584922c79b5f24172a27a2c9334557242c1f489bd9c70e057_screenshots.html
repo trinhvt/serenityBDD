@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="19cde626b7edbd7d471a15c23b57c83492c971ae2d648d33302d5a1c496c6bd6.html">Frame</a>
+                > <a
+                    href="a4bc4741688cd52584922c79b5f24172a27a2c9334557242c1f489bd9c70e057.html">General and Frame steps in English </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-07-2016 23:43</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Frame </span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">General and Frame steps in English
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="796f606620426058b969c1d2f3344575.png" title="Given the page &quot;http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_input_disabled&quot; is visited" width="960"/>
+                <img src="796f606620426058b969c1d2f3344575.png" title="And go inside the &quot;id=iframeResult&quot; frame" width="960"/>
+                <img src="796f606620426058b969c1d2f3344575.png" title="Then assert that the &quot;name=fname&quot; element is enabled" width="960"/>
+                <img src="796f606620426058b969c1d2f3344575.png" title="And assert that the &quot;name=lname&quot; element is disabled" width="960"/>
+                <img src="796f606620426058b969c1d2f3344575.png" title="And assert that the &quot;xpath=//input[@type='submit']&quot; element is present" width="960"/>
+                <img src="796f606620426058b969c1d2f3344575.png" title="And assert that the &quot;xpath=//input[@type='password']&quot; element is absent" width="960"/>
+                <img src="scaled_0fda85a157e5a1434fc211ee622b717c.png" title="When the page &quot;http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_hidden&quot; is visited" width="960"/>
+                <img src="0fda85a157e5a1434fc211ee622b717c.png" title="And go inside the &quot;id=iframeResult&quot; frame" width="960"/>
+                <img src="0fda85a157e5a1434fc211ee622b717c.png" title="Then assert that the &quot;value&quot; attribute of &quot;name=country&quot; is &quot;Norway&quot;" width="960"/>
+                <img src="0fda85a157e5a1434fc211ee622b717c.png" title="And assert that the &quot;name=country&quot; element is hidden" width="960"/>
+                <img src="scaled_009af9b5a98cf9bc231498c39a189e86.png" title="When change &quot;type&quot; attribute of &quot;name=country&quot; into &quot;display&quot;" width="960"/>
+                <img src="009af9b5a98cf9bc231498c39a189e86.png" title="Then assert that the &quot;name=country&quot; element is visible" width="960"/>
+                <img src="scaled_3592f9b778a1d6d224d18a7f14d997ed.png" title="When change &quot;value&quot; attribute of &quot;name=country&quot; into &quot;VIETNAM&quot;" width="960"/>
+                <img src="3592f9b778a1d6d224d18a7f14d997ed.png" title="Then assert that the &quot;value&quot; attribute of &quot;name=country&quot; is &quot;VIETNAM&quot;" width="960"/>
+                <img src="scaled_828f85bd15a777b426b79a5a76e4a7ea.png" title="When highlight &quot;name=country&quot; element" width="960"/>
+                <img src="828f85bd15a777b426b79a5a76e4a7ea.png" title="And set bound for &quot;name=country&quot; element" width="960"/>
+                <img src="828f85bd15a777b426b79a5a76e4a7ea.png" title="And capture image of &quot;name=country&quot; element and save as &quot;norway.png&quot;: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.1.36</span>
+</div>
+</body>
+</html>

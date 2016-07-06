@@ -1,0 +1,51 @@
+<acceptance-test-run title="Dimiss the confirm box" name="Dimiss the confirm box" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16622" timestamp="2016-07-05T23:37:34.608+07:00" session-id="dc646549-d0cc-4b06-81b8-9edbb70e25a7">
+  <user-story id="behavior-on-dialogs-and-alerts" name="Behavior on Dialogs and Alerts" path="src/test/resources/features/popup/AlertPopUp.feature"/>
+  <tags>
+    <tag name="Behavior on Dialogs and Alerts" type="feature"/>
+    <tag name="popup" type="tag"/>
+  </tags>
+  <test-group name="Given the page &quot;http://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm&quot; is visited" result="SUCCESS">
+    <screenshots>
+      <screenshot image="369325aa5580dcd8663825e511e7bd89.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="15133">
+      <screenshots>
+        <screenshot image="369325aa5580dcd8663825e511e7bd89.png"/>
+      </screenshots>
+      <description>Open page: http://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm</description>
+    </test-step>
+  </test-group>
+  <test-group name="And go inside the &quot;id=iframeResult&quot; frame" result="SUCCESS">
+    <screenshots>
+      <screenshot image="369325aa5580dcd8663825e511e7bd89.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="216">
+      <screenshots>
+        <screenshot image="369325aa5580dcd8663825e511e7bd89.png"/>
+      </screenshots>
+      <description>Go inside frame: id=iframeResult</description>
+    </test-step>
+  </test-group>
+  <test-group name="And choose CANCEL on confirm dialog box &quot;css=button&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="099646e1d8d5c92898882468f2c1223e.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="306">
+      <screenshots>
+        <screenshot image="099646e1d8d5c92898882468f2c1223e.png"/>
+      </screenshots>
+      <description>Choose cancel: css=button</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then assert that the text &quot;id=demo&quot; element is &quot;You pressed Cancel!&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="099646e1d8d5c92898882468f2c1223e.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="143">
+      <screenshots>
+        <screenshot image="099646e1d8d5c92898882468f2c1223e.png"/>
+      </screenshots>
+      <description>Assert text element: id=demo, You pressed Cancel!</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

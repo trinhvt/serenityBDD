@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Behavior on Dialogs and Alerts","Accept the confirm box","SUCCESS","2016-07-05T22:55:02.078+07:00","0.0","12.08"
+"Behavior on Dialogs and Alerts","Answer the prompt box","SUCCESS","2016-07-05T22:54:35.018+07:00","0.0","14.51"
+"Behavior on Dialogs and Alerts","Dimiss the confirm box","SUCCESS","2016-07-05T22:54:50.906+07:00","0.0","10.77"
+"Behavior on Dialogs and Alerts","Verify text on the popup","SUCCESS","2016-07-05T22:55:14.571+07:00","0.0","10.26"

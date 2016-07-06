@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Behavior on Dialogs and Alerts" skipped="0" tests="4" time="46.04" timestamp="2016-07-187 11:05:32"><testcase name="Answer the prompt box"/><testcase name="Dimiss the confirm box"/><testcase name="Accept the confirm box"/><testcase name="Verify text on the popup"/></testsuite>

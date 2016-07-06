@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: demo.vnu.hus.frame.FrameTestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.563 sec - in demo.vnu.hus.frame.FrameTestSuite
